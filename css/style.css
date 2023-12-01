@@ -1,0 +1,142 @@
+@import url("components/banner.css"); 
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/footer.css");
+
+.presentation, .reviews, .social {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+
+.services-section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.presentation {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }    
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0 auto
+    }
+
+h2, h3 {
+    color: #a00066;
+}
+p {
+    line-height: 1.6;
+}
+
+
+  .services {
+    text-align: center;
+    text-decoration: none;
+}
+    .service h3 {
+    margin: 10px 0;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+  
+
+
+.reviews {
+    text-align: center;
+}
+.review {
+    margin-bottom: 1em;
+}
+.review p {
+    font-style: italic;
+}
+.review .author {
+    font-weight: bold;
+}
+
+
+
+.social {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 1em;
+    text-align: center;
+}
+.social h2 {
+    color: #a00066;
+}
+.social a {
+    display: inline-block;
+    margin-right: 1em;
+    color: #a00066;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.social a:hover {
+    color: rgb(229, 222, 215);
+}
